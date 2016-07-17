@@ -15,6 +15,9 @@
            review="gerrit.omnirom.org"
            fetch="https://github.com/omnirom" />
            
+  <remote  name="vineethrp"
+           fetch="https://github.com/vineethrp" />
+           
   <remote  name="TeamWin"
            review="gerrit.twrp.me"
            fetch="https://github.com/TeamWin" />
@@ -45,6 +48,7 @@
   <!--project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" /> -->
   <!--project path="device/generic/common" name="device/generic/common" groups="pdk" /> -->
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
+  <project path="device/finowatch/w602" name="twrp_device_finowatch_w602" remote="vineethrp" revision="android-5.1" groups="pdk" />
   <!--project path="device/generic/mips" name="device/generic/mips" groups="pdk" /> -->
   <!--project path="device/generic/mini-emulator-arm64" name="device/generic/mini-emulator-arm64" groups="pdk" /> -->
   <!--project path="device/generic/mini-emulator-armv7-a-neon" name="android_device_generic_mini-emulator-armv7-a-neon" remote="omnirom" revision="android-5.1" groups="pdk" /> -->
