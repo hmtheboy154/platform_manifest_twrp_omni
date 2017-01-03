@@ -19,6 +19,9 @@
            review="gerrit.twrp.me"
            fetch="https://github.com/TeamWin" />
 
+  <remote  name="vineethrp"
+           fetch="https://github.com/vineethrp" />
+
   <default revision="refs/tags/android-6.0.1_r74"
            remote="aosp"
            sync-c="true"
